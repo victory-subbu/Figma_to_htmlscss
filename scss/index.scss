@@ -1,0 +1,234 @@
+@import "section2";
+@import 'section3';
+@import 'section4';
+@import 'section5';
+@import 'section6';
+@import 'section7';
+@import 'section8';
+@import 'section9';
+@mixin navbar{
+    text-decoration: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+
+
+.bg-img{
+    position: absolute;
+    width: 100%;
+    height: 890px;
+    left: 0px;
+    top: 0px;
+    background: url("images/image1.png");
+}
+.rectangle1{
+    position: absolute;
+    width: 600px; 
+    height: 890px;
+    left: 1337px;
+    top: 0px;
+    right: 0px;
+    background: rgba(206, 206, 206, 0.57);
+    backdrop-filter: blur(9.5px);
+    float: right;
+    margin-right: 0px;
+
+}
+
+.bg-logo {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 240px;
+    top: 15px;
+}
+.heading{
+    position: absolute;
+    width: 546px;
+    height: 191px;
+    left: 200px;
+    top: 260px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 98px;
+
+    color: #FFFFFF;
+}
+.section-text{
+    position: absolute;
+    width: 500px;
+    height: 69px;
+    left: 200px;
+    top: 562px;
+
+    font-family: 'Merriweather Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+.bg-search{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1228px;
+    top: 20px;
+
+}
+.bg-user{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1280px;
+    top: 20px;
+}
+.bg-downarrow{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1349px;
+    top: 754px;
+}
+.bg-uparrow{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1349px;
+    top: 779px;
+    transform: rotate(180deg);
+}
+.bg-facebook{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: 1356px;
+    top: 485px;
+}
+.bg-instagram{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1359px;
+    top: 530px;
+}
+.bg-twitter{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 1359px;
+    top: 570px;
+
+}
+#about{
+    position: absolute;
+    width: 48px;
+    height: 24px;
+    left: 285px;
+    top: 18px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    @include navbar;
+}
+#tour{
+    @include navbar;
+    position: absolute;
+    width: 74px;
+    height: 24px;
+    left: 367px;
+    top: 18px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+#explore{
+    @include navbar;
+    position: absolute;
+    width: 57px;
+    height: 24px;
+    left: 475px;
+    top: 18px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+
+
+}
+#guide{
+    @include navbar;
+    position: absolute;
+    width: 56px;
+    height: 24px;
+    left: 566px;
+    top: 18px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+}
+#contract{
+    @include navbar;
+    position: absolute;
+    width: 74px;
+    height: 24px;
+    left: 656px;
+    top: 18px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+.rectangle2{
+    position: absolute;
+    width: 1100px;
+    height: 1px;
+    left: 200px;
+    top: 56px;
+
+    background: #B6B6B6;
+    border-radius: 20px;
+}

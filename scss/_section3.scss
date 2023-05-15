@@ -1,0 +1,453 @@
+.section3-images{
+    display: flex;
+    align-items: center;
+}
+.section3-para1{
+    position: absolute;
+    width: 478px;
+    height: 86px;
+    left: 230px;
+    top: 1775px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 43px;
+
+    color: #000000;
+}
+.section3-rectangle1{
+    position: absolute;
+    width: 185px;
+    height: 50px;
+    left: 230px;
+    top: 1980px;
+    
+    background: #9F7464;
+    border-radius: 10px;
+
+}
+.section3-para2{
+    position: absolute;
+    width: 62px;
+    height: 33px;
+    left: 261px;
+    top: 1980px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+.section3-para3{
+    position: absolute;
+    width: 502px;
+    height: 216px;
+    left: 1048px;
+    top: 1810px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    
+    color: #373737;    
+}
+.section3-para4{
+
+    position: absolute;
+    width: 502px;
+    height: 216px;
+    left: 1048px;
+    top: 1920px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    
+    color: #373737;    
+
+
+}
+.section3-img{
+    position: absolute;
+    width: 300px;
+    height: 365px;
+    left: 250px;
+    top: 2140px;
+
+    background-image: url("/images/section3.png");
+    border-radius: 15px 15px 0px 0px;
+
+
+}
+.section3-rect1{
+    position: absolute;
+    width: 79px;
+    height: 36px;
+    left: 201px;
+    top: 7px;
+
+    background: #FFFFFF;
+    border-radius: 18px;
+}
+.section3-box1{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 300px;
+    height: 121px;
+    left: 3px;
+    top: 365px;
+    
+    border: 2px solid rgba(209, 209, 209, 0.75);
+    border-radius: 0px 0px 15px 15px;
+}
+.section3-text{
+    position: absolute;
+    width: 128px;
+    height: 35px;
+    left: 45px;
+    top: 20px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 34px;
+    /* identical to box height */
+
+
+    color: #000000;
+
+}
+.section3-value{
+    position: absolute;
+    width: 116px;
+    height: 24px;
+    left: 45px;
+    top: 60px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+
+    color: #010101;
+}
+.section3-link1{
+    position: absolute;
+    width: 63px;
+    height: 20px;
+    left: 201px;
+    top: 90px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #0490DD;
+
+}
+.section3-img2{
+    position: absolute;
+    width: 300px;
+    height: 365px;
+    left: 588px;
+    top: 2140px;
+
+    background: url("/images/section3(2).png");
+    border-radius: 15px 15px 0px 0px;
+}
+.section3-box2{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 300px;
+    height: 121px;
+    left: 4px;
+    top: 365px;
+
+    border: 2px solid rgba(209, 209, 209, 0.75);
+    border-radius: 0px 0px 15px 15px;
+}
+.section3-text2{
+    position: absolute;
+    width: 171px;
+    height: 35px;
+    left: 40px;
+    top: 20px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 34px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+.section3-value2{
+    position: absolute;
+    width: 111px;
+    height: 24px;
+    left: 45px;
+    top: 60px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+
+    color: #010101;
+}
+.section3-link2{
+    position: absolute;
+    width: 63px;
+    height: 20px;
+    left: 201px;
+    top: 90px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #0490DD;
+
+}
+
+.section3-img3{
+    position: absolute;
+    width: 300px;
+    height: 365px;
+    left: 938px;
+    top: 2140px;
+
+    background-image: url("/images/Rectangle 20.png");
+    border-radius: 15px 15px 0px 0px;
+}
+.section3-box3{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 300px;
+    height: 121px;
+    left: 4px;
+    top: 365px;
+
+    border: 2px solid rgba(209, 209, 209, 0.75);
+    border-radius: 0px 0px 15px 15px;   
+}
+.section3-text3{
+    position: absolute;
+    width: 171px;
+    height: 35px;
+    left: 40px;
+    top: 20px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 34px;
+    /* identical to box height */
+
+
+    color: #000000;   
+}
+.section3-value3{
+    position: absolute;
+    width: 111px;
+    height: 24px;
+    left: 45px;
+    top: 60px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+
+    color: #010101;   
+}
+.section3-link3{
+    position: absolute;
+    width: 63px;
+    height: 20px;
+    left: 201px;
+    top: 90px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #0490DD;    
+}
+.section3-img4{
+    position: absolute;
+    width: 300px;
+    height: 365px;
+    left: 1298px;
+    top: 2140px;
+
+    background-image: url("/images/Rectangle 21.png");
+    border-radius: 15px 15px 0px 0px;  
+}
+.section3-box4{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 300px;
+    height: 121px;
+    left: 4px;
+    top: 365px;
+
+    border: 2px solid rgba(209, 209, 209, 0.75);
+    border-radius: 0px 0px 15px 15px;     
+}
+.section3-text4{
+    position: absolute;
+    width: 171px;
+    height: 35px;
+    left: 40px;
+    top: 20px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 34px;
+    /* identical to box height */
+
+
+    color: #000000;    
+}
+.section3-value4{
+    position: absolute;
+    width: 111px;
+    height: 24px;
+    left: 45px;
+    top: 60px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+
+    color: #010101;     
+}
+.section3-link4{
+    position: absolute;
+    width: 63px;
+    height: 20px;
+    left: 201px;
+    top: 90px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #0490DD;    
+}
+
+.section3-num1{
+    position: absolute;
+    width: 79px;
+    height: 36px;
+    left: 240px;
+    top: 7px;
+    border-radius: 18px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #3F3F3F;
+      
+}
+#star1{
+    height: 19.79166603088379px;
+    width: 20.83333396911621px;
+    left: 4.08331298828125px;
+    top: 2.0833740234375px;
+    border-radius: 0px;
+    color: yellow;
+    position: absolute;
+    left: 70.33%;
+    right: 8.33%;
+    top: 4.33%;
+    bottom: 12.5%;
+}
+
+.section3-rect2{
+    position: absolute;
+    width: 79px;
+    height: 36px;
+    left: 201px;
+    top: 7px;
+
+    background: #FFFFFF;
+    border-radius: 18px;
+}
+
+.section3-num2{
+    position: absolute;
+    width: 79px;
+    height: 36px;
+    left: 240px;
+    top: 7px;
+    border-radius: 18px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #3F3F3F;
+      
+}
+#star2{
+    height: 19.79166603088379px;
+    width: 20.83333396911621px;
+    left: 4.08331298828125px;
+    top: 2.0833740234375px;
+    border-radius: 0px;
+    color: yellow;
+    position: absolute;
+    left: 70.33%;
+    right: 8.33%;
+    top: 4.33%;
+    bottom: 12.5%;
+}

@@ -1,0 +1,176 @@
+.section9{
+    position: absolute;
+    width: 100%;
+    height: 367px;
+    left: 0px;
+    top: 6846px;
+    
+    background: #9F7464;
+
+
+}
+
+
+.section9-logo{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 72px;
+    top: 36px;
+    
+    background: url("/images/hot-air-balloon 1.png");
+
+}
+.section9-statements1{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    .section9-col1{
+        padding-left: 0.25px;
+    }
+
+}
+.section9-para1{
+   
+    position: absolute;
+    width: 370px;
+    height: 92px;
+    left: 70px;
+    top: 79px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+ 
+}
+.section9-col1-row1{
+    display: flex;
+    h4{
+        position: absolute;
+        width: 74px;
+        height: 18px;
+        left: 70px;
+        top: 209px;
+        
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        color: #FFFFFF;
+    }
+    .section9-line1{
+        position: absolute;
+        width: 22px;
+        height: 0px;
+        left: 130px;
+        top: 239px;
+        border: 1px solid #FFFFFF;
+        transform: rotate(90deg); 
+    }
+    .section9-icon1{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: 150px;
+        top: 229px;
+        
+        background: url("/images/twitter (5) 1.png");   
+    }
+    .section9-icon2{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: 180px;
+        top: 229px;
+        
+        background: url("/images/instagram (9) 1.png");  
+    }
+    .section9-icon3{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        left: 210px;
+        top: 229px;
+        
+        background: url("/images/facebook(4).png");  
+    }
+    
+
+
+}
+.section9-col2-row2{
+    display: flex;
+    flex-direction: column;
+
+ }
+.section9-col2-row2 h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF;
+
+
+}
+.section9-col3-row3{
+    display: flex;
+    flex-direction: column;
+}
+.section9-col3-row3 h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF; 
+}
+
+.section9-col4-row4{
+    display: flex;
+    flex-direction: column;   
+}
+.section9-col4-row4 h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #FFFFFF; 
+}
+
+.section9-para5{
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 1px;
+    padding: 1px;
+    text-align: center;
+
+}
+.section9-statements1{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF; 
+}
+
+
+
+
